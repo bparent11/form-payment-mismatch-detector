@@ -80,4 +80,4 @@ list_delinquent_payer = list_delinquent_payer.reindex(range(max_length))
 
 final_df = pd.concat([list_prompt_payer, list_prompt_payer_without_form, list_delinquent_payer], axis=1)
 
-final_df.to_excel("data/final_df.xlsx", index=False)
+final_df.to_excel('C:/Users/Lenovo/Documents/Études/Ecole_Ingénieur/BDS/Mandat/algo/form-payment-mismatch-detector/FakeData_Try/data/final_df.xlsx', index=False)
